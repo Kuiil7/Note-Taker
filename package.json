@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/darh0ky/Note-Taker/issues"
   },
-  "homepage": "https://github.com/darh0ky/Note-Taker#readme"
+  "homepage": "https://github.com/darh0ky/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
 }

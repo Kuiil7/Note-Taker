@@ -1,12 +1,9 @@
-DROP DATABASE IF EXISTS notetaker_db;
-CREATE DATABASE notetaker_db;
-
 USE notetaker_db;
 
-CREATE TABLE notes (
-  id INT NOT NULL AUTO_INCREMENT,
-  title VARCHAR(255) NOT NULL,
-  body TEXT NOT NULL,
-  created_at DATETIME default NOW(),
-  PRIMARY KEY (id)
-);
+ INSERT INTO notes
+  (title, body)
+VALUES
+  ("Make more notes", "Give me more to work with"),
+  ("Take over the world", "It's not that hard");
+
+SELECT * FROM notes;
