@@ -141,9 +141,3 @@ $noteText.on("keyup", handleRenderSaveBtn);
 
 // Gets and renders the initial list of notes
 getAndRenderNotes();
-const router = require("express").Router();
-const apiRoutes = require("./apiRoutes");
-
-router.use("/notes", apiRoutes);
-
-module.exports = router;

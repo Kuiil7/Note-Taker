@@ -2,14 +2,14 @@ const router = require("express").Router();
 const connection = require("../../db/connection");
 
 // get all notes
-router.get("/api/notes", function(req, res) {
+router.get("/", function(req, res) {
   connection.query("SELECT * FROM notes", function(err, dbNotes) {
     res.json(dbNotes);
   });
 });
 
 // save a new note from req.body
-router.post("/api/notes", function(req,res) {
+router.post("/", function(req,res) {
   connection.query("INSERT INTO notes SET ?", [req.body], function(err, result){
     if (err) throw err;
     res.json(result);
