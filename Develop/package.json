@@ -18,7 +18,9 @@
   "homepage": "https://github.com/darh0ky/Note-Taker#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "mysql": "^2.18.1",
-    "mysql2": "^2.1.0"
+    "mysql2": "^2.1.0",
+    "path": "^0.12.7"
   }
 }
