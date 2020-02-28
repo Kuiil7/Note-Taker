@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "read, write, and save notes",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darh0ky/Note-Taker.git"
+  },
+  "author": "Joey Merino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darh0ky/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/darh0ky/Note-Taker#readme"
+}
