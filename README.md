@@ -10,4 +10,4 @@ TO RUN APP: node server.js.
 
 CREATED using: HTML, CSS, Express, JSON, JavaScript, jQuery, and Ajax.
 
-![APP DEMO](../assets/notetaker.gif)
+![APP DEMO](./assets/Notetaker.gif)
