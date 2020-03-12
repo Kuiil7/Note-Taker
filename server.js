@@ -35,7 +35,6 @@ app.post("/api/notes", function(req, res) {
     savedNotes.push(newNote);
 
     fs.writeFileSync("./db/db.json", JSON.stringify(savedNotes));
-    console.log("Note saved to db.json. Content: ", newNote);
     res.json(savedNotes);
 })
 
@@ -43,7 +42,6 @@ app.delete("/api/notes/:id", function(req, res) {
     let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
     let noteID = req.params.id;
     let newID = 0;
-    console.log(`Deleting note with ID ${noteID}`);
     savedNotes = savedNotes.filter(currNote => {
         return currNote.id != noteID;
     })
@@ -58,5 +56,5 @@ app.delete("/api/notes/:id", function(req, res) {
 })
 
 app.listen(port, function() {
-    console.log(`Now listening to port ${port}. Enjoy your stay!`);
+    console.log(`LISTENING ON PORT: ***>8084<***`);
 })
