@@ -1,13 +1,20 @@
 # Note Taker
 
+![APP DEMO](Notetaker.gif)
+
 This application was created to write, save, and delete text notes. This is for any type of user that wants to track any amount of information. Backend data is stored and retrieved in JSON format via Express.
 
-SETUP: to run this project, install it locally using npm:
-$ npm install
-$ npm start
+## TO START APP
 
-TO RUN APP: node server.js.
+    npm install
+    npm start
+  
+## BUILT WITH
 
-CREATED using: HTML, CSS, Express, JSON, JavaScript, jQuery, and Ajax.
-
-![APP DEMO](Notetaker.gif)
+* HTML
+* CSS
+* Bootstrap
+* jQuery
+* Express.js
+* Ajax
+* JSON
