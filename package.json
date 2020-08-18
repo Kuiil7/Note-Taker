@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darh0ky/Note-Taker.git"
+    "url": "git+https://github.com/kuiil7/Note-Taker.git"
   },
   "author": "Joey Merino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darh0ky/Note-Taker/issues"
+    "url": "https://github.com/kuiil7/Note-Taker/issues"
   },
-  "homepage": "https://github.com/darh0ky/Note-Taker#readme"
+  "homepage": "https://github.com/kuiil7/Note-Taker#readme"
 }

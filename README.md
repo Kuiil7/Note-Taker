@@ -1,4 +1,4 @@
-# Note Taker
+# Note Taker APP
 
 ![APP DEMO](Notetaker.gif)
 
